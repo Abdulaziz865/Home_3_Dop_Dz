@@ -1,8 +1,10 @@
-package com.example.home_3_dop_dz
+package com.example.home_3_dop_dz.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
+import com.example.home_3_dop_dz.R
+import com.example.home_3_dop_dz.data.account.Account
 import com.example.home_3_dop_dz.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {

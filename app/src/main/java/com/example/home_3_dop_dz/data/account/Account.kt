@@ -1,4 +1,6 @@
-package com.example.home_3_dop_dz
+package com.example.home_3_dop_dz.data.account
+
+import com.example.home_3_dop_dz.data.singleton.JustSingleton
 
 open class Account {
 

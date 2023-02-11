@@ -1,4 +1,4 @@
-package com.example.home_3_dop_dz
+package com.example.home_3_dop_dz.data.singleton
 
 object JustSingleton {
     var name: String? = null
