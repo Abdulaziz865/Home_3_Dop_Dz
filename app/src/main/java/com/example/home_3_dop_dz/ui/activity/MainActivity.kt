@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding.txtName.text = Singleton.getName()
-        binding.txtMiddle.text = Singleton.getMiddle()
+        binding.txtName.text = Singleton.MySingleton.getName()
+        binding.txtMiddle.text = Singleton.MySingleton.getMiddle()
     }
 }
